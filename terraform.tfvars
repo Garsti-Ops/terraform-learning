@@ -1,4 +1,6 @@
-subnet_cidr_block = "10.0.40.0/24"
 vpc_cidr_block = "10.0.0.0/16"
-environment = "development"
-cidr_blocks = [{cidr_block = "10.0.0.0/16", name = "dev-vpc"}, {cidr_block = "10.0.10.0/24", name = "dev_subnet"}]
+subnet_cidr_block = "10.0.10.0/24"
+avail_zone = "eu-central-1a"
+env_prefix = "dev"
+instance_type = "t2.micro"
+public_key_location = "/home/cheider/.ssh/id_rsa.pub"
